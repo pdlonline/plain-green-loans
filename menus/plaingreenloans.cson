@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle plaingreenloans'
+      'command': 'plaingreenloans:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'plaingreenloans'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'plaingreenloans:toggle'
+        }
+      ]
+    ]
+  }
+]

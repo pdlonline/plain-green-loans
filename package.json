@@ -1,0 +1,21 @@
+{
+  "name": "plain-green-loans",
+  "main": "./lib/plaingreenloans",
+  "version": "0.0.0",
+  "description": "Plain Green Loans Online Payday Loans Online No Credit Check Instant Approval",
+  "keywords": [
+    "plaingreenloans",
+    "plain green loans",
+    "plaingreenloans.com"
+  ],
+  "activationCommands": {
+    "atom-workspace": "plaingreenloans:toggle"
+  },
+  "repository": "https://github.com/pdlonline/plain-green-loans",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
